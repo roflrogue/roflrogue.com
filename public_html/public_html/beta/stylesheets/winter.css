@@ -1,0 +1,49 @@
+/* line 1, ../sass/winter.scss */
+.page-header {
+  border-color: #557eda;
+}
+
+/* line 4, ../sass/winter.scss */
+.winter {
+  background: radial-gradient(ellipse at center, #ffffff 0%, #557eda 100%);
+}
+/* line 5, ../sass/winter.scss */
+.winter article:nth-child(1) {
+  background-image: url(../img/snow-flake.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: contain;
+}
+/* line 11, ../sass/winter.scss */
+.winter article:nth-child(2) {
+  background-image: url(../img/pine-cones.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: contain;
+}
+/* line 17, ../sass/winter.scss */
+.winter article:nth-child(3) {
+  background-image: url(../img/Winter-Cherry-Blossom.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: contain;
+}
+/* line 24, ../sass/winter.scss */
+.winter * {
+  border-color: #557eda;
+}
+/* line 27, ../sass/winter.scss */
+.winter .services {
+  background: linear-gradient(#ffffff 0%, #557eda 100%);
+  border-color: #557eda;
+}
+
+/* line 32, ../sass/winter.scss */
+.winter-header {
+  background-image: url("../img/winter-banner.jpg");
+}
+
+/* line 35, ../sass/winter.scss */
+footer {
+  border-color: #557eda;
+}

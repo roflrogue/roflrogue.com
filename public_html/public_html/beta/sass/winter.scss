@@ -1,0 +1,37 @@
+.page-header{
+    border-color: #557eda;
+}
+.winter{
+    article:nth-child(1){
+        background-image: url(../img/snow-flake.png);
+        background-repeat: no-repeat;
+        background-position: top right;
+        background-size: contain;
+    }
+    article:nth-child(2){
+        background-image: url(../img/pine-cones.png);
+        background-repeat: no-repeat;
+        background-position: top right;
+        background-size: contain;
+    }
+    article:nth-child(3){
+        background-image: url(../img/Winter-Cherry-Blossom.png);
+        background-repeat: no-repeat;
+        background-position: top right;
+        background-size: contain;
+    }
+    background: radial-gradient(ellipse at center, #ffffff 0%, #557eda 100%);
+    *{
+        border-color: #557eda;
+    }
+    .services{
+        background: linear-gradient(#ffffff 0%,#557eda 100%);
+        border-color: #557eda;
+    }
+}
+.winter-header{
+    background-image: url("../img/winter-banner.jpg");
+}
+footer{
+    border-color: #557eda;
+}
